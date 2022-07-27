@@ -12,7 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/Tema5-CleanCode/Tema5-CleanCode.iml" filepath="$PROJECT_DIR$/Tema5-CleanCode/Tema5-CleanCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tema6_spring/Tema6_spring.iml" filepath="$PROJECT_DIR$/Tema6_spring/Tema6_spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tema7_springWeb/Tema7_springWeb.iml" filepath="$PROJECT_DIR$/Tema7_springWeb/Tema7_springWeb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tema8_JDBC_SQL/Tema8_JDBC_SQL.iml" filepath="$PROJECT_DIR$/Tema8_JDBC_SQL/Tema8_JDBC_SQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tema8_JDBC_SQL-javaOnly/Tema8_JDBC_SQL-javaOnly.iml" filepath="$PROJECT_DIR$/Tema8_JDBC_SQL-javaOnly/Tema8_JDBC_SQL-javaOnly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tema8_SQL_JDBC/Tema8_SQL_JDBC.iml" filepath="$PROJECT_DIR$/Tema8_SQL_JDBC/Tema8_SQL_JDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Teme.iml" filepath="$PROJECT_DIR$/.idea/Teme.iml" />
     </modules>
   </component>

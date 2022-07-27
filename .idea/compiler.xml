@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Tema8_SQL_JDBC" />
         <module name="Tema7_springWeb" />
         <module name="Tema6_spring" />
       </profile>
@@ -14,12 +15,14 @@
     <bytecodeTargetLevel>
       <module name="Tema6_spring" target="17" />
       <module name="Tema7_springWeb" target="17" />
+      <module name="Tema8_SQL_JDBC" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Tema6_spring" options="-parameters" />
       <module name="Tema7_springWeb" options="-parameters" />
+      <module name="Tema8_SQL_JDBC" options="-parameters" />
     </option>
   </component>
 </project>
