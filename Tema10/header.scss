@@ -1,0 +1,38 @@
+@import "./colors.scss";
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 24px;
+}
+
+nav{
+    display:flex;
+    font-size:24px;
+    gap: 2rem;
+    margin-right: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+    line-height: 1.2;
+    color: $text-color;
+    cursor: pointer;
+}
+
+nav a:hover{
+    color: $main-color;
+}
+
+#logo{
+    width:103px;
+    height: 72px;
+    height:fit-content;
+}
+
+#home{
+    color: $main-color;
+    font-weight: bold;
+}

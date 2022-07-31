@@ -1,0 +1,21 @@
+.footer {
+  background-color: #eee;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 16px 40px;
+}
+.footer_section {
+  display: flex;
+  gap: 48px;
+}
+.footer_section a {
+  text-decoration: none;
+  color: #494545;
+  cursor: pointer;
+}
+.footer_section a:hover {
+  color: #E44F0E;
+}/*# sourceMappingURL=footer.css.map */

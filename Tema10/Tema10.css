@@ -1,0 +1,37 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+
+nav a:hover{
+    color: orange;
+}
+
+#logo{
+    width:100px;
+    height:fit-content;
+}
+
+#home{
+    color: orange;
+}
+
+#pageTitle{
+    text-align: center;
+    color: grey;
+}
+
+#container{
+    display: grid;
+    margin-top: 120px;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 74px;
+    row-gap: 74px;
+}

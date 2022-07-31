@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 24px;
+}
+
+nav {
+  display: flex;
+  font-size: 24px;
+  gap: 2rem;
+  margin-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  line-height: 1.2;
+  color: #494545;
+  cursor: pointer;
+}
+
+nav a:hover {
+  color: #E44F0E;
+}
+
+#logo {
+  width: 103px;
+  height: 72px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#home {
+  color: #E44F0E;
+  font-weight: bold;
+}/*# sourceMappingURL=header.css.map */
