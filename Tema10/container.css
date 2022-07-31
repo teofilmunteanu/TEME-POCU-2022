@@ -1,4 +1,5 @@
 main {
+  flex: 1;
   margin: 50px 150px;
 }
 main h1 {
