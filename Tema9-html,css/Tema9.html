@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Tema9-HTML,CSS</title>
+        <link href="Tema9.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="container">
+            <div id = "banner">
+                <img src="img/form_header.jpg" id="bannerImg">
+                <div id="bannerTxt">
+                    <b>CREATE AN ACCOUNT</b>
+                </div>
+            </div>
+
+            <form action="" method="post" id="formContainer">
+                <div class="formElement">
+                    <label for="username" class="formLabel">USERNAME*</label>
+                    <br/>
+                    <input type="text" name="username" id="username" class="formInput" placeholder="Enter username" required >
+                </div>
+                <div class="formElement">
+                    <label for="email" class="formLabel">EMAIL*</label>
+                    <br/>
+                    <input type="email" name="email" id="email" class="formInput" placeholder="Enter email" required >
+                </div>
+                <div class="formElement">
+                    <label for="date" class="formLabel">BIRTHDATE</label>
+                    <br/>
+                    <input type="date" id="birthdate" class="formInput"/>
+                </div>
+                <div class="formElement">
+                    <label for="date" class="formLabel">PASSWORD*</label>
+                    <br/>
+                    <input type="password" name="pass" id="pass" class="formInput" placeholder="Enter password" required >
+                </div>
+                <div class="formElement" style="font-size:1.2rem">
+                    <input type="checkbox" name="terms" id="terms">
+                    I agree to the <a href="#">Terms and Services</a>.
+                </div>
+                <br/>
+                <div class="formElement">      
+                    <input type="submit" value="SIGN UP!" id="submitBtn"/>
+                </div>
+            </form>
+
+            
+        </div>
+    </body>
+</html>
+
