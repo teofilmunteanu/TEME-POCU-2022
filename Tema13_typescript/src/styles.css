@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+}
+
+#catalog-container{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width: 40%;
+  height:80%;
+}
+
+#catalog-inputArea{
+  height:20%;
+  width:100%;
+  background-color: rgb(250, 141, 141);
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+#catalog-listArea{
+  min-height: 20%;
+  height:fit-content;
+  width:100%;
+  margin-top:5%;
+  background-color: rgb(250, 82, 82);
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+.catalog-inputItem{
+  width:90%;
+  font-size:1vw;
+}
+
+#catalog-list{
+  width:90%;
+  font-size:1vw;
+  color:white;
+}
