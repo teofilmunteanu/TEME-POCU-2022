@@ -1,0 +1,20 @@
+#list-container{
+    position:absolute;
+    left:50%;
+    top:20%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(183, 183, 253);
+    width:80%;
+    height:fit-content;
+    font-size: large;
+}
+
+#list-label-passed{
+    color:rgb(50, 173, 50);
+    font-weight: bold;
+}
+
+#list-label-failed{
+    color:red;
+    font-weight: bold;
+}

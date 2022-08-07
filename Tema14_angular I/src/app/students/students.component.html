@@ -1,0 +1,16 @@
+<div id="list-container">
+    <label id="list-label-passed">Passed:</label>
+    <ul>
+        <ng-container *ngFor="let student of studentList">
+            <li *ngIf="hasPassed(student.gradeAverage)">{{student.firstName}} {{student.lastName}} {{student.gradeAverage}}</li>
+        </ng-container>
+    </ul>
+    
+    <label id="list-label-failed">Failed:</label>
+    <ul>
+        <ng-container *ngFor="let student of studentList">
+            <li *ngIf="!hasPassed(student.gradeAverage)">{{student.firstName}} {{student.lastName}} {{student.gradeAverage}}</li>
+        </ng-container>
+    </ul>  
+</div>
+
